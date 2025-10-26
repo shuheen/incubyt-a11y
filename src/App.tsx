@@ -25,6 +25,7 @@ const App = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         name='numbers'
+        aria-labelledby='input-label'
       />
 
       <button
