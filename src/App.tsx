@@ -17,7 +17,7 @@ const App = () => {
 
       <h1>String Calculator</h1>
 
-      <h2 style={{ fontSize: '20px' }}>Enter numbers</h2>
+      <label htmlFor='numbers' style={{ fontSize: '20px', display: 'block' }}>Enter numbers</label>
 
       <textarea
         style={{ margin: '10px 0', color: '#aaa' }}
