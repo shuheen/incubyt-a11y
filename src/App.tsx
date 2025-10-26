@@ -16,10 +16,10 @@ const App = () => {
           height={400}
         />
 
-        <h1>String Calculator</h1>
+        <h1 style={{color:"#000"}}>String Calculator</h1>
       </header>
       <section>
-        <label htmlFor="numbers" style={{ fontSize: "20px", display: "block" }}>
+        <label htmlFor="numbers" style={{ fontSize: "20px", display: "block", color: "#000" }} id="input-label">
           Enter numbers
         </label>
 
@@ -50,10 +50,7 @@ const App = () => {
             Result: {result}
           </p>
         )}
-
-        <div role="alert">
-          <p>Make sure you enter numbers correctly!</p>
-        </div>
+        <p role="alert" aria-live="assertive" style={{ color: "red" }}>Make sure you enter numbers correctly!</p>
       </section>
     </main>
   );
