@@ -37,7 +37,7 @@ const App = () => {
           style={{
             padding: "10px",
             backgroundColor: "#008cba",
-            color: "#fff",
+            color: "#000",
             border: "none",
             display: "block",
           }}
@@ -50,7 +50,7 @@ const App = () => {
             Result: {result}
           </p>
         )}
-        <p role="alert" aria-live="assertive" style={{ color: "red" }}>Make sure you enter numbers correctly!</p>
+        <p role="alert" aria-live="assertive" style={{ color: "#d02e26" }}>Make sure you enter numbers correctly!</p>
       </section>
     </main>
   );
