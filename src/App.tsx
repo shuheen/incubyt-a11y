@@ -24,7 +24,7 @@ const App = () => {
         </label>
 
         <textarea
-          style={{ margin: "10px 0", color: "#aaa" }}
+          style={{ margin: "10px 0", color: "#1a1a1aff" }}
           placeholder="Enter numbers"
           value={input}
           onChange={(e) => setInput(e.target.value)}
@@ -36,8 +36,8 @@ const App = () => {
           onClick={handleCalculate}
           style={{
             padding: "10px",
-            backgroundColor: "#008cba",
-            color: "#000",
+            backgroundColor: "#005c7bff",
+            color: "#fff",
             border: "none",
             display: "block",
           }}
